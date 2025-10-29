@@ -12,7 +12,7 @@ The **analysis** directory contains:
 
 - [:file_folder: paper](/paper): PDF file of the paper and the SI. 
 - [:file_folder: code](/code): JavaScript code for implementation in Google Earth Engine (GEE). 
-- [:file_folder: data](/data): Reservoir data for integration into GEE and .
+- [:file_folder: data](/data): Reservoir data and instructions for integration into GEE.
 
 ## How to run the code in your browser
 
