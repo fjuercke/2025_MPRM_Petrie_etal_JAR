@@ -185,7 +185,7 @@ var cost_surface_water = watRecur.divide(33.33).add(ee.Image(1));
 // et al 2011).
 
 // Load the reservoir dataset provided as a polygon vector layer. 
-var reservoir_polygons = ee.FeatureCollection('projects/ee-fkjuercke/assets/GDW_reservoirs_v1_0'); // Wherever you stored the dam polygons
+var reservoir_polygons = ee.FeatureCollection('projects/ee-fkjuercke/assets/GDW_reservoirs_v1_0'); // !!!ADJUST PATH TO WHERE THE RESERVOIR DATASET IS STORED!!!
 
 // Create a binary raster with value 0 for all areas covered in reservoirs and 1 for all other cells. Upon multiplication to the 'cost_slope' raster all reservoir
 // areas will be set to 0.
