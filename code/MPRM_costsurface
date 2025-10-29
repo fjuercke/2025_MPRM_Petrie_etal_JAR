@@ -74,7 +74,7 @@ var geometry = ee.Geometry.Polygon([[
 
 //////// TEMPORAL PARAMETERS ////////
 
-// Seasonal parameters for the EVI filter.
+// Seasonal parameters.
 var spring = ee.Filter.dayOfYear(79,172);
 var summer = ee.Filter.dayOfYear(172,266);
 var autumn = ee.Filter.dayOfYear(266,355);
