@@ -2,13 +2,13 @@
 
 Before running the script, please complete **three setup steps**:
 
-# **1) Downloading the Reservoir Dataset **
+### 1) Downloading the Reservoir Dataset
 
 Download the reservoir
 
 ---
 
-# **1) Upload the reservoir dataset to your GEE Assets**
+### **1) Upload the reservoir dataset to your GEE Assets**
 
 This step is required so the script can access the reservoir polygons.
 
@@ -30,7 +30,7 @@ After the task is complete:
 
 ---
 
-# **2) Update the FeatureCollection path in the script**
+### **2) Update the FeatureCollection path in the script**
 
 Once your asset is visible in your asset library:
 
