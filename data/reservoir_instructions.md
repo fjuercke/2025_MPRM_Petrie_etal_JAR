@@ -2,9 +2,11 @@
 
 Before running the script, please complete **three setup steps**:
 
-### 1) Downloading the Reservoir Dataset
+### 1) Download the Reservoir Dataset
 
-Download the reservoir
+Download the reservoir dataset through the Global Dam Watch (GDW) database here: https://www.globaldamwatch.org/database
+
+Extract the zip-file.
 
 ---
 
@@ -17,7 +19,7 @@ This step is required so the script can access the reservoir polygons.
 1. Open the **Assets** tab in the left-hand panel of the GEE Code Editor (next to **Scripts** and **Docs**).
 2. Click **New**.
 3. Select **Table upload → Shapefiles**.
-4. Click **Select** under *Source files* and choose the zipped shapefile you saved locally.
+4. Click **Select** under *Source files* and navigate to the GDW dataset you saved locally and extracted. Choose the GDW_reservoirs shapefile from the GDW_v_shp folder.
 5. **(Optional)** Rename the asset.
 6. Click **Upload** in the bottom-right corner.
 
