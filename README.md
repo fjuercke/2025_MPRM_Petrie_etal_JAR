@@ -10,7 +10,6 @@ This repository contains the data and code for our paper:
 
 The **analysis** directory contains:
 
-- [:file_folder: paper](/paper): PDF file of the paper and the SI. 
 - [:file_folder: code](/code): JavaScript code for implementation in Google Earth Engine (GEE). 
 - [:file_folder: data](/data): Link to reservoir data and instructions for ingestion into GEE.
 
