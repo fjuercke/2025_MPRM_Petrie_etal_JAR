@@ -28,7 +28,7 @@
     read these carefully and consult the paper's text to understand how to best apply it.
  2. To run the code you need to upload the reservoir dataset provided alongside the code into your GEE assets.
     Then you need to update line 188 with the path to the reservoir dataset you have uploaded. 
-    Detailed instructions how to download and ingest the reservoir dataset can be found here. 
+    Detailed instructions how to download and ingest the reservoir dataset can be found in the reservoir_instructions.md
  3. To apply the analysis to your own areas of interest (AOIs):
       1.  Define a central point in your study area (as X,Y WGS84 decimal degrees) and a scale
           for visualisation purposes in line 62.
