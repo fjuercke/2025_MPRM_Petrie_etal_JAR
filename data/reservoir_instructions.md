@@ -63,7 +63,4 @@ var reservoir_polygons = ee.FeatureCollection('[YOUR_TABLE_ID]');
 
 Finally, **save the script** after inserting the correct path.
 
----
-
-If you'd like, I can also add a diagram, a troubleshooting section, or a minimal working example of the asset loading into your `README.md`.
-
+The script is now ready to run. 
