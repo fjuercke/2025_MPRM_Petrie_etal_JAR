@@ -11,7 +11,7 @@ This repository contains the data and code for our paper:
 This repository contains:
 
 - [MPRM_costsurface](MPRM_costsurface): JavaScript code for implementation in Google Earth Engine (GEE).
-- [instructions](reservoir_instructions): Instructions for loading the reservoir data into your GEE assets.
+- [reservoir_instructions](reservoir_instructions): Instructions for loading the reservoir data into your GEE assets.
 
 ## How to run the code in your browser
 
