@@ -8,16 +8,16 @@ This repository contains the data and code for our paper:
 
 ## Contents
 
-The **analysis** directory contains:
+This repository contains:
 
-- [:file_folder: code](/code): JavaScript code for implementation in Google Earth Engine (GEE). 
-- [:file_folder: data](/data): Link to reservoir data and instructions for ingestion into GEE.
+- [MPRM_costsurface](MPRM_costsurface): JavaScript code for implementation in Google Earth Engine (GEE).
+- [instructions](reservoir_instructions): Instructions for loading the reservoir data into your GEE assets.
 
 ## How to run the code in your browser
 
 The code has been developed for implementation in Google Earth Engine (c) by H.A. Orengo, T.C. Wilkinson and F.K. Jürcke. 
 To run the code: 
-1) Ingest the reservoir data available at LINK into your GEE assets. [instructions](data/reservoir_instructions)
+1) Ingest the reservoir data into your GEE assets. Please see the [instructions](reservoir_instructions).
 2) Copy the code contained in file [MPRM_costsurface](/code/MPRM_costsurface) into the Google Earth Engine code editor.
 3) Adjust line 188 in the code, which calls the reservoir data, to where the reservoir data is in your asset manager. 
 4) Press 'Run'. 
