@@ -23,3 +23,9 @@ To run the code:
 4) Press 'Run'. 
 
 All further instructions are contained in the JavaScript Code. 
+
+
+The code presented here is a first stable iteration of the MPRM model. An extended version of the algorithm, 
+which incorporates additional factors and convolutions, has been developed in the meantime and can be found here:
+
+https://github.com/horengo/Multitemporal-and-multifactor-probailistic-corridor-networks/tree/main
