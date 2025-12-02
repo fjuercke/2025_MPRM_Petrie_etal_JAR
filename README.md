@@ -29,4 +29,4 @@ factors and convolutions of those factors is under further development, and will
 in a separate paper where the additional parameters are used to consider movement across longer 
 distances and different environments and landscapes (Orengo et al. n.d.in prep). That version can be found here:
 
-https://github.com/horengo/Multitemporal-and-multifactor-probailistic-corridor-networks/tree/main
+https://github.com/horengo/Multitemporal-and-multifactor-probailistic-corridor-networks
