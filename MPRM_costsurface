@@ -97,7 +97,7 @@ if (select_period == 'winter') {var period = winter; var monthNum = '00'; var mo
 
 //////// DIGITAL SURFACE MODEL (DSM) ////////
 
-// Load the DSM. Here the ALOS Glboal 30m DSM is used.
+// Load the DSM. Here the ALOS Global 30m DSM is used.
 var ref = ee.ImageCollection('JAXA/ALOS/AW3D30/V4_1').filterBounds(geometry).select('DSM').first();
 
 var dsm = ee.ImageCollection('JAXA/ALOS/AW3D30/V4_1')
@@ -194,7 +194,6 @@ var reservoir_polygons = ee.FeatureCollection('projects/ee-fkjuercke/assets/GDW_
 //    - Use the first band of the DSM to get the extent and projection.
 var emptyImage = dsm.select(0).multiply(0); // Creates an image of all 0s over the DSM area
 
-
 // Paint the polygons onto the empty image (inside polygons = 1) to create a binary raster mask for the reservoirs.
 var mask_reservoirs = emptyImage.paint({
   featureCollection: reservoir_polygons,
@@ -279,7 +278,7 @@ var cost_surface = (costs_max_assigned.divide(maximum_cost)).multiply(255)
 // Visualise the cost surface in the Code Editor map display.
 Map.addLayer(cost_surface,
     {palette: '0f00ff, 03ff00, efff00, ffbc00, ff0000, ff0081'
-    }, 'Cost suface');
+    }, 'Cost surface');
 
 
 //////// EXPORT COST SURFACE ////////
