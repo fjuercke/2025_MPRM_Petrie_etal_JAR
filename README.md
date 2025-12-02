@@ -24,8 +24,9 @@ To run the code:
 
 All further instructions are contained in the JavaScript Code. 
 
-
-The code presented here is a first stable iteration of the MPRM model. An extended version of the algorithm, 
-which incorporates additional factors and convolutions, has been developed in the meantime and can be found here:
+The code presented here is an iteration of the MPRM model. A version of the algorithm that integrates additional 
+factors and convolutions of those factors is under further development, and will be presented 
+in a separate paper where the additional parameters are used to consider movement across longer 
+distances and different environments and landscapes (Orengo et al. n.d.in prep). That version can be found here:
 
 https://github.com/horengo/Multitemporal-and-multifactor-probailistic-corridor-networks/tree/main
