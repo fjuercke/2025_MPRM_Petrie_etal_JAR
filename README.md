@@ -3,8 +3,10 @@ Multi-factor, Probabilistic Route Modelling (MPRM) algorithm to generate cost su
 
 This repository contains the data and code for our paper:
 
-> Petrie, Cameron A., Friederike K. Jürcke, Toby C. Wilkinson, Hector A. Orengo (2025). *Over the hills and far away: modelling mobility and connectivity across the Iranian Plateau in late prehistory (c. 10,000-2000 BC) using multi-factor probabilistic corridors*. Journal of Archaeological Research
-> <https://doi.org/xxx/xxx>
+> Petrie, Cameron A., Friederike K. Jürcke, Toby C. Wilkinson, Hector A. Orengo (submitted). *Over the hills and far away: modelling mobility and connectivity across the Iranian Plateau in late prehistory (c. 10,000-2000 BC) using multi-factor probabilistic corridors*. 
+> Journal of Archaeological Research
+
+[//]: # (> <https://doi.org/xxx/xxx>)
 
 ## Contents
 
@@ -27,6 +29,6 @@ All further instructions are contained in the JavaScript Code.
 The code presented here is an iteration of the MPRM model. A version of the algorithm that integrates additional 
 factors and convolutions of those factors is under further development, and will be presented 
 in a separate paper where the additional parameters are used to consider movement across longer 
-distances and different environments and landscapes (Orengo et al. n.d.in prep). That version can be found here:
+distances and different environments and landscapes (Orengo et al. n.d.). The repository can be found here:
 
 https://github.com/horengo/Multitemporal-and-multifactor-probailistic-corridor-networks
