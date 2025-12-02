@@ -1,8 +1,9 @@
 /*
  JavaScript code to be implemented in Google Earth Engine(c) developed by H.A. Orengo, T.C. Wilkinson and F.K. Jürcke
  to accompany the paper:
- C.A. Petrie; F.K. Jürcke; T.C. Wilkinson; and H.A. Orengo 'Over the hills and far away: modelling mobility
- and connectivity across the Iranian Plateau in late prehistory' submitted to Journal of Archaeological Research
+ C.A. Petrie; F.K. Jürcke; T.C. Wilkinson; and H.A. Orengo 'Over the hills and far away: modelling mobility and
+ connectivity across the Iranian Plateau in late prehistory (c. 10,000-2000 BC) using multi-factor probabilistic
+ corridors' submitted to Journal of Archaeological Research
 
                 ------------- ooo -------------
  TO EXECUTE THE ALGORITHM PASTE THIS CODE INTO GOOGLE EARTH ENGINE CODE EDITOR AND PRESS 'Run'
