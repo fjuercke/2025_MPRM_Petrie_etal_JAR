@@ -28,12 +28,12 @@
  1. Specific instructions of how the algorithm works have been included within the code, please,
     read these carefully and consult the paper's text to understand how to best apply it.
  2. To run the code you need to upload the reservoir dataset provided alongside the code into your GEE assets.
-    Then you need to update line 188 with the path to the reservoir dataset you have uploaded. 
+    Then you need to update line 190 with the path to the reservoir dataset you have uploaded.
     Detailed instructions how to download and ingest the reservoir dataset can be found in the reservoir_instructions.md
  3. To apply the analysis to your own areas of interest (AOIs):
       1.  Define a central point in your study area (as X,Y WGS84 decimal degrees) and a scale
-          for visualisation purposes in line 62.
-      2.  Eliminate the polygon variable in lines 66-73 and define your own polygon. This can be done by either
+          for visualisation purposes in line 63.
+      2.  Eliminate the polygon variable in lines 67-74 and define your own polygon. This can be done by either
           replacing the coordinates of the polygon variable with coordinates of a different polygon
           (as X,Y WGS84 decimal degrees) or drawing your own polygon (as a geometry) delimiting the AOI
           using the tool provided in the top left of Google Earth Engine’s map window. This will create a

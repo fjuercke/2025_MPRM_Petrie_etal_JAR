@@ -21,7 +21,7 @@ The code has been developed for implementation in Google Earth Engine (c) by H.A
 To run the code: 
 1) Ingest the reservoir data into your GEE assets. Please see the [instructions](reservoir_instructions).
 2) Copy the code contained in file [MPRM_costsurface](/code/MPRM_costsurface) into the Google Earth Engine code editor.
-3) Adjust line 188 in the code, which calls the reservoir data, to where the reservoir data is in your asset manager. 
+3) Adjust line 190 in the code, which calls the reservoir data, to where the reservoir data is in your asset manager. 
 4) Press 'Run'. 
 
 All further instructions are contained in the JavaScript Code. 
